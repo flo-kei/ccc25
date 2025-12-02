@@ -1,0 +1,44 @@
+sek / unit
+
+-5s / unit
+
+total_steps_x = abs(int(spacestation_pos_x))
+        total_steps_y = abs(int(spacestation_pos_y))
+        polarity_x = 1 if int(spacestation_pos_x) >= 0 else -1
+        polarity_y = 1 if int(spacestation_pos_y) >= 0 else -1
+        
+        
+        
+56 16:28
+
+========================
+
+
+1 1 2 3 4 5
+
+current 0
+
+total 6
+
+total - current <= 6
+
+
+1 5
+
+1 2 3 4 5 
+5 4 3 2 1 
+
+
+===========================
+
+0 5 4 5 0
+0 -5 -4 -5 0
+
+0 5 4 3 2 3 4 5 0
+0 5 4 3 4 5 0
+
+0 -5 -4 -4 -5 0
+0 -5 -4 -3 -2 -1 -2 -3 -4 -5 0
+
+
+
